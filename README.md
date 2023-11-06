@@ -27,3 +27,6 @@ jmp 0
 end
 ```
 (line numbering still starts at 0)
+
+
+you can also alternatively use hlt instead of end
