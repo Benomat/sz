@@ -25,7 +25,7 @@ else:
 
 
 try: containers = load(open("starting_containers.json"))
-except FileNotFoundError: dump({"0" : 3,"1":3}, open("starting_containers.json", "w"), indent=4);print("\n-- Please edit the containers in starting_containers.json and restart the program. --");exit()2
+except FileNotFoundError: dump({"0" : 3,"1":3}, open("starting_containers.json", "w"), indent=4);print("\n-- Please edit the containers in starting_containers.json and restart the program. --");exit()
 sz_code = open(chosen_file).read().split("\n")
 line = 0
 
