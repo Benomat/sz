@@ -30,3 +30,8 @@ end
 
 
 you can also alternatively use hlt instead of end
+
+
+## quick note
+this "programming language" doesnt have an actual usecase due to being this simple.
+just a little project
