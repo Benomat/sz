@@ -1,4 +1,4 @@
-# sz
+# Stoneage Programming
 .sz file handler
 
 very self explanitory.
