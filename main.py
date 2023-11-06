@@ -38,7 +38,7 @@ def end():
     dump(containers, open("containers.json", "w"), indent=4)
     print("\n-- Done! Results in containers.json --")
     exit()
-
+if not "end" in open(chosen_file).read():print(f"\n-- {chosen_file} doesnt have an end // wont run --");exit()
 while True:
     cl = sz_code[line].split(" ")
     try: command = cl[-2]
@@ -56,5 +56,5 @@ while True:
     elif command == "inc":
         containers[cl[-1]] += 1
         line = line + 1
-    elif command == "end":
+    elif command == "end" or command == "hlt":
         end()
